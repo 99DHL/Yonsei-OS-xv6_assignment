@@ -231,7 +231,7 @@ exit(void)
   proc->total_ZOMBIE += 1; // changed part
 
   ///////////// changed part(print the final stat) /////////////
-  cprintf("\n\npid = %d, name = %s\n", proc->pid, proc->name);
+  cprintf("\n\n\npid = %d, name = %s\n", proc->pid, proc->name);
   cprintf("UNUSED = %d\n", proc->total_UNUSED);
   cprintf("EMBRYO = %d\n", proc->total_EMBRYO);
   cprintf("SLEEPING = %d\n", proc->total_SLEEPING);
